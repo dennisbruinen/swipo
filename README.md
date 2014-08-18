@@ -11,10 +11,10 @@ A most complete version of the carousel:
 ```javascript
     var c = new swipo();
     c.carousel('.js-carousel-1', {
-        'arrows' : true // default: false
-        'bullets' : true, // default: false
-        'auto' : true, // default: false
-        'autoInterval' : 4000, // default: 5000
+        arrows : true // default: false
+        bullets : true, // default: false
+        auto : true, // default: false
+        autoInterval : 4000, // default: 5000
     });
 ```
 
