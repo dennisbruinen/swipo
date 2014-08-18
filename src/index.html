@@ -125,12 +125,31 @@
     <div class="media-container js-carousel-6">
         <div class="media-holder">
             <div class="media-slider">
-                <div class="media-slide blue-block"><span>Slide 1</span></div>
+                <div class="media-slide red-block"><span>Slide 1</span></div>
                 <div class="media-slide green-block"><span>Slide 2</span></div>
                 <div class="media-slide black-block"><span>Slide 3</span></div>
-                <div class="media-slide red-block"><span>Slide 4</span></div>
+                <div class="media-slide blue-block"><span>Slide 4</span></div>
                 <div class="media-slide yellow-block"><span>Slide 5</span></div>
             </div>
+        </div>
+        <a href="#" class="arrow prev hidden" data-direction="prev"><</a>
+        <a href="#" class="arrow next" data-direction="next">></a>
+    </div>
+    
+    <hr />
+
+    <!-- Carousel 7 -->
+
+    <h2>Carousel with only one slide</h2>
+
+    <div class="media-container js-carousel-7">
+        <div class="media-holder">
+            <div class="media-slider">
+                <div class="media-slide yellow-block"><span>Slide 1</span></div>
+            </div>
+        </div>
+        <div class="media-paginator">
+            <a class="bullet active" data-slide="1" href="#"><span></span></a>
         </div>
         <a href="#" class="arrow prev hidden" data-direction="prev"><</a>
         <a href="#" class="arrow next" data-direction="next">></a>
@@ -139,7 +158,7 @@
     <script src="jquery.1.11.0.js"></script>
     <script src="modernizr.2.8.3.js"></script>
     <script src="hammer.1.1.3.js"></script>
-    <script src="swipo.1.3.0.js"></script>
+    <script src="swipo.1.4.0.js"></script>
     <script>
     /* initiate carousel c1 */
     var c1 = new swipo();
@@ -175,6 +194,12 @@
     /* initiate carousel c6 */
     var c6 = new swipo();
     c6.carousel('.js-carousel-6', {
+        'arrows' : true,
+    });
+
+    /* initiate carousel c7 */
+    var c7 = new swipo();
+    c7.carousel('.js-carousel-7', {
         'arrows' : true,
     });
     </script>

@@ -7,6 +7,7 @@
 * 1.1.0: Fixed multiple bugs
 * 1.2.0: Added functionality for bullets, automatic sliding
 * 1.3.0: Added functionality for bullets outside the media-holder
+* 1.4.0: Added check if there's more than 1 slide, if not, hide arrows
 *
 */
 
@@ -40,8 +41,13 @@ var swipo = function(){
             /* initialize */
             this.init = function() {
                 $(window).on('load resize orientationchange', function() {
-                    /*self.toggle( window.innerWidth < 480 );*/
-                    self.toggle( true );
+                    if(self.pane_count > 1){
+                        self.toggle( true );
+                    }else{
+                        if(self.show_arrows){
+                            self.arrows.hide();
+                        }
+                    }
                 });
             };
 
