@@ -11,7 +11,7 @@ Swipo needs the following javascript libraries:
 - swipo.1.4.0.js
 
 ##How to implement
-The html at least needs div's with the classes '.media-holder', '.media-slider' and 'media-slide'. For easy use, copy the corresponding CSS. 
+The HTML needs at least the following classes: '.media-holder', '.media-slider' and 'media-slide'. For easy styling, copy the corresponding CSS and tweak it to your needs! 
 
 A most complete example of the carousel:
 
