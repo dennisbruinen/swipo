@@ -1,7 +1,7 @@
 #Swipo
 
 ##Introduction
-Swipo is a simple plugin that can be used to initiate different carousels. It works on a lot of devices and is very lightweight thanks to CSS3.
+Swipo is a simple plugin that can be used to initiate different types of carousels. It works on a lot of devices and is very lightweight thanks to CSS3.
 
 ##Dependencies
 Swipo needs the following javascript libraries:
