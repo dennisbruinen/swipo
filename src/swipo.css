@@ -58,5 +58,8 @@ h2{font-family: Arial; margin:30px 0; text-align:center;}
 .black-block{background-color:black; color:#fff;}
 .blue-block{background-color:blue; color:#fff;}
 .media-slide span{display:block; margin:auto; width:50px;}
+.btn-holder{width:95px; margin:10px auto 0;}
+.btn-holder button{float:left;}
+.clearfix{clear:both;}
 
 

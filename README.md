@@ -43,7 +43,7 @@ Please check swipo.css
 ###JavaScript
 ```javascript
     var c = new swipo();
-    c.carousel('.js-carousel-1', {
+    c.init('.js-carousel-1', {
         arrows : true // default: false
         bullets : true, // default: false
         auto : true, // default: false
