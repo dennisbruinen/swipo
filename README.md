@@ -38,7 +38,7 @@ A most complete example of the carousel:
 ``` 
 
 ###CSS
-Please check swipo.css
+Please check swipo.css [here](https://github.com/dennisbruinen/swipo/blob/master/src/swipo.css)
 
 ###JavaScript
 ```javascript
