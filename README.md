@@ -8,7 +8,7 @@ Swipo needs the following javascript libraries:
 - jquery.1.11.0.js
 - modernizr.2.8.3.js
 - hammer.1.1.3.js
-- swipo.1.4.0.js
+- swipo.1.5.0.js
 
 ##How to implement
 The HTML needs at least the following classes: '.media-holder', '.media-slider' and 'media-slide'. For easy styling, copy the corresponding CSS and tweak it to your needs! 
@@ -44,7 +44,7 @@ Please check swipo.css
 ```javascript
     var c = new swipo();
     c.init('.js-carousel-1', {
-        arrows : true // default: false
+        arrows : true, // default: false
         bullets : true, // default: false
         auto : true, // default: false
         autoInterval : 4000, // default: 5000
