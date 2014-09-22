@@ -1,5 +1,5 @@
 /* 
-* Name: Swipo 1.3.0 
+* Name: Swipo 1.5.0 
 * Author: Dennis Bruinen (dennisbruinen at hotmail . com)
 * Last update: 01-08-2014
 *
