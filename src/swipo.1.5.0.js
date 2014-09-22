@@ -1,7 +1,7 @@
 /* 
 * Name: Swipo 1.5.0 
 * Author: Dennis Bruinen (dennisbruinen at hotmail . com)
-* Last update: 01-08-2014
+* Last update: 22-09-2014
 *
 * 1.0.0: First version
 * 1.1.0: Fixed multiple bugs
