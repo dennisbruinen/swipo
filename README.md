@@ -32,8 +32,8 @@ A most complete example of the carousel:
             <a class="bullet" data-slide="4" href="#"><span></span></a>
             <a class="bullet" data-slide="5" href="#"><span></span></a>
         </div>
-        <a href="#" class="arrow prev hidden" data-direction="prev"><</a>
-        <a href="#" class="arrow next" data-direction="next">></a>
+        <a href="#" class="arrow prev hidden" data-direction="prev">&lt;</a>
+        <a href="#" class="arrow next" data-direction="next">&gt;</a>
     </div>
 ``` 
 
